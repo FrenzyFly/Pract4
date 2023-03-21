@@ -20,7 +20,7 @@ public class MenuFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = FragmentMenuBinding.inflate(inflater, container, false);
         return binding.getRoot();
-    } casuchasihc
+    }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
