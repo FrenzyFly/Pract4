@@ -9,9 +9,9 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="background">#32A852</color>
-    <color name="onBackground">#FEFDF8</color>
+    <color name="onBackground">#CC1F1F</color>
     <color name="primary">#F7AA2D</color>
-    <color name="secondaryOnBackground">#C3C1BC</color>
+    <color name="secondaryOnBackground">#7A2121</color>
     <color name="red">#ff0030</color>
 
 </resources>
