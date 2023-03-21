@@ -21,7 +21,6 @@ public class MenuFragment extends Fragment {
         binding = FragmentMenuBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
-    casuchasihc
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
