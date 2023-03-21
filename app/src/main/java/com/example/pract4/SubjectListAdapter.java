@@ -46,4 +46,3 @@ public class SubjectListAdapter extends ArrayAdapter<SubjectListItem> {
         return view;
     }
 }
-
