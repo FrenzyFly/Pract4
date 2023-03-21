@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pract4</string>
+    <string name="subject_list">Subject list</string>
+    <string name="user_list">User list</string>
+    <string name="user_list_subject_title">%1$s subject</string>
+    <string name="user_list_item_title">User %1$s</string>
+</resources>
