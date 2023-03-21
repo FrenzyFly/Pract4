@@ -31,11 +31,11 @@ public class SubjectListAdapter extends ArrayAdapter<SubjectListItem> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View view = inflater.inflate(this.layout, parent, false);
-        TextView hackathonTitleItem = view.findViewById(R.id.subjectTitleItem);
-        TextView hackathonDescItem = view.findViewById(R.id.subjectDescItem);
+        TextView subjectTitleItem = view.findViewById(R.id.subjectTitleItem);
+        TextView subjectDescItem = view.findViewById(R.id.subjectDescItem);
         SubjectListItem item = items.get(position);
-        hackathonTitleItem.setText(item.getTextTitle());
-        hackathonDescItem.setText(item.getTextDesc());
+        subjectTitleItem.setText(item.getTextTitle());
+        subjectDescItem.setText(item.getTextDesc());
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
